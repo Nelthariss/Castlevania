@@ -1,0 +1,188 @@
+/* Elements principaux de a page*/
+
+body
+{
+	background-image: url(https://images4.alphacoders.com/480/thumbbig-48076.jpg);
+	background-size: cover;
+}
+
+#bloc_page
+{
+	width: 100%;
+	margin: left;
+}
+
+.p3
+{
+	border-bottom: 3px solid white;
+	border-radius: 10px;
+	padding-bottom: 15px
+}
+
+
+nav a, h1
+{
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+p, h1, label
+{
+	color: white;
+}
+
+h1
+{
+	text-align: center;
+}
+
+h2
+{
+	text-align: left;
+	color: white;
+	border-top: 2px solid white;
+	border-radius: 10px;
+	padding-top: 12px;
+}
+
+label
+{
+	border-bottom: 3px solid white;
+	border-right: 3px solid white;
+	border-left: 3px solid white;
+	border-radius: 15px
+}
+
+#Conteneur
+{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+
+form {
+	padding-top: 20px;
+	margin-right: 10px;
+}
+
+form div {
+	display: flex;
+	justify-content: space-between;
+}
+
+form div:last-child {
+	justify-content: flex-end; 
+}
+
+/* Bannière bouton */
+
+#bannière_image
+{
+	display: flex;
+	position: block;
+	justify-content: center;
+
+}
+
+.bouton
+{
+	height: 20px;
+	position: relative;
+	right: 5px;
+	bottom: -70px; 
+	color: white;
+    margin-left: -15px;
+}
+
+
+/* Navigation */
+
+nav ul
+{
+	display: flex;
+	font-family: Arial;
+	justify-content: center;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+nav a
+{
+	list-style-type: none;
+	font-size: 1em;
+	text-decoration: none;
+	color: white;  
+	
+}
+
+nav li
+{
+	margin-left: 15px;
+	border-bottom: 3px solid white; 
+	border-right: 3px solid white;
+	border-left: 3px solid white;
+	border-radius: 10px;
+}
+
+nav li:first-child
+{
+	margin-left: 0px!important;
+}
+
+nav a:hover
+{
+    background-image: linear-gradient(to right, blue, #87CEFA, blue);
+    border-radius: 15px;
+}
+
+/* Corps */
+
+section
+{
+	display: flex;
+}
+
+article, aside
+{
+	text-align: justify;
+}
+
+aside
+{
+	flex: 1.2;
+	position: relative;
+}
+
+article p
+{
+	font-size: 1em
+	margin-right: 50px;
+	text-align: justify;
+	padding-right: 120px;
+}
+
+.Masque
+{
+	width: 200px;
+	padding-right: 90px;
+	padding-top: 30px
+}
+
+/* Footer */
+
+.Jeu_1, .Jeu_2, .Jeu_3, .Jeu_4
+{
+	width: 300px
+}
+
+.Jeu_1, .Jeu_2, .Jeu_3, .Jeu_4, .Jeu_5
+{
+	float: left;
+	margin-bottom: 20px
+}
+
+.Jeu_5
+{
+	width: 300px;
+	height: 170px;
+}

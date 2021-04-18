@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coucoux</title>
+</head>
+<body>
+	<p id="monParagraphe">
+	</p>
+	<p id="monParagraphe2" style="color: red">
+	</p>
+</body>
+<script type="text/javascript">
+	let monP;
+	function coucou () {
+		if(true) {
+			monP = document.getElementById("monParagraphe");
+		}
+		monP.textContent = "Trou des fesses de ouf";
+	}
+
+	function coucou(a) {
+		let monP = document.getElementById("monParagraphe2");
+		monP.textContent = "NTM";
+	}
+	coucou();
+	coucou("a");
+</script>
+</html>
